@@ -17,6 +17,6 @@ do
     balance=$(kid query bank balances $DELEGATOR -o json| jq ".balances[].amount | tonumber")
     stake_to_delegate="$(($balance - 5000000))" # leaving 5000000 on the balance
 
-    echo $PASSWORD | kid tx staking delegate $VALIDATOR ${stake_to_delegate}utki --chain-id=kichain-t-3 --fees 0.008tki --from=$kichain_wallet_name --home $NODE_HOME --yes
+    echo $PASSWORD | kid tx staking delegate $VALIDATOR ${stake_to_delegate}utki --chain-id=$network --fees 0.008tki --from=$kichain_wallet_name --home $NODE_HOME --yes
     sleep 3h 
 done
