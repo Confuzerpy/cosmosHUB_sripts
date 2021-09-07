@@ -1,7 +1,7 @@
 #!/bin/bash
 
 WALLET_PASS="YOUR_PASSWORD_HERE"
-NETWORK=kichain-t-3
+NETWORK=kichain-t-4
 HOME_DIR="YOUR KID HOME PATH"
 kichain_wallet_name="YOUR KICHAIN WALLET"
 
