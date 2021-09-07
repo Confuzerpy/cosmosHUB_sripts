@@ -4,7 +4,7 @@ DELEGATOR="tki1...."
 NODE_HOME="kid home"
 PASSWORD="wallet password"
 kichain_wallet_name="wallet name"
-network="kichain-t-3"
+network="kichain-t-4"
 
 while true
 do
