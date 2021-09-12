@@ -60,6 +60,7 @@ await window.keplr.experimentalSuggestChain({
     },
 });
  ```
-How it works
+## How it works
+
 [![HOW it works](https://img.youtube.com/vi/Fe-nCKO3uF8/0.jpg)](https://www.youtube.com/watch?v=Fe-nCKO3uF8)
 
