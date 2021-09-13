@@ -1,8 +1,6 @@
 from subprocess import Popen, PIPE
 from random import choice, randint
 from time import sleep
-
-COUNT = 0
 PATH = 'transfer'             # replace with your path
 IBC0 = 'kichain-t-4'          # source chain
 IBC1 = 'testnet-croeseid-4'   # destination chain
@@ -17,14 +15,14 @@ def main():
     using Popen module"""
     while True:
         try:
-            AMOUNT = randint(1000, 9999) # amount to send randomly generates
-            path = choice(COMMAND).replace('amount', f"{AMOUNT}")
-            COUNT += 1
+            AMOUNT = randint(1000, 9999)  # randomly generates amount to send
+            path = choice(COMMAND).replace('amount', f"{AMOUNT}")  # randm path
             result = Popen(path, stdout=PIPE, shell=True).communicate()[0]
-            print(f"{COUNT} {result}")
+            print(f"{result}")
             sleep(60)
         except Exception as err:
             print(err.message)
+
 
 if __name__ == '__main__':
         main()
