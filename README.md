@@ -1,8 +1,11 @@
-## keplr wallet integrity
-[keplr wallet](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap)
+## kichain keplr wallet integrity
+
+[![HOW it works](https://img.youtube.com/vi/Fe-nCKO3uF8/0.jpg)](https://www.youtube.com/watch?v=Fe-nCKO3uF8)
+
+    
 ## Tested: Brave browser, Opera
 
-## Requirements: keplr wallet extension
+## Requirements: [keplr wallet extension](https://chrome.google.com/webstore/detail/keplr/dmkamcknogkgcdfhhbddcghachkejeap)
 
 ## Instruction:
 1. Opening your browsers JavaScript console
@@ -60,7 +63,3 @@ await window.keplr.experimentalSuggestChain({
     },
 });
  ```
-## How it works
-
-[![HOW it works](https://img.youtube.com/vi/Fe-nCKO3uF8/0.jpg)](https://www.youtube.com/watch?v=Fe-nCKO3uF8)
-
