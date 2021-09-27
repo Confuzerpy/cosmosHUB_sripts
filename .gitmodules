@@ -1,0 +1,3 @@
+[submodule "ibc-relayer-guide"]
+	path = ibc-relayer-guide
+	url = https://github.com/Confuzerpy/ki-testnet-ibc-guide
