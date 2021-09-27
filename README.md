@@ -18,8 +18,8 @@ Chromium based browsers: View> Developer>Developer Tools(ctrl-shift-j)
 
 ```
 await window.keplr.experimentalSuggestChain({
-    chainId: "kichain-t-3",
-    chainName: "kichain-t-3",
+    chainId: "kichain-t-4",
+    chainName: "kichain-t-4",
     rpc: "https://rpc-challenge.blockchain.ki:443",
     rest: "https://api-challenge.blockchain.ki",
     bip44: {
