@@ -4,6 +4,10 @@ NETWORK="umee-betanet-2"
 #HOME_DIR="YOUR umeed HOME PATH"
 wallet="umee1...."
 
+# If you consistently getting jailed
+# then apparently you have a problem and
+# this script won't solve this problem for you."
+# First, try to figure out where the problem is(hardware, network, stake, ports etc)
 
 echo 'Listening:'
 while true; do
