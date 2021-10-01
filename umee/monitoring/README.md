@@ -1,0 +1,1 @@
+<img src="https://raw.githubusercontent.com/Confuzerpy/cosmosHUB_sripts/main/umee/monitoring/screens/dark.png" alt="test" width="50%" height="50%"><img src="https://raw.githubusercontent.com/Confuzerpy/cosmosHUB_sripts/main/umee/monitoring/screens/light.png" alt="test" width="50%" height="50%">
