@@ -1,3 +1,8 @@
+## ibc_tx_generator.py
+###### Randomly generate transctions between umee-betanet-2 and kichain-t-4
+
+```python3 ibc_tx_generator.py```
+
 ## Automatically claim all your rewards and re-delegate them
 autodelegate.sh is a script that automatically claims all your rewards. The rewards
 are then automatically re-delegated to the provided validator address leaving behind at least a 1 UMEE for
